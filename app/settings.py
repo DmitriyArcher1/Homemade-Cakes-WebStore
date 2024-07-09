@@ -14,6 +14,7 @@ from pathlib import Path
 
 import django
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent # содержит в себе путь к корневой директории
 
@@ -126,7 +127,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'static/' # префикс к url адресу для браузера(его можно менять, но есть ли в этом необходимость?)
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static' # указываю путь к общей static для всего проекта в корневой директории
+    ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
