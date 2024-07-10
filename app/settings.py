@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'main',
+    'goods',
 ]
 
 # промежуточное ПО, которое отвечает за безопасность
