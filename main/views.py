@@ -1,14 +1,20 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
+from goods.models import Categories
+
 
 # создание контролера (тоже самое, что и функция, но в джанго говорят именно так)
 # в параметр request попадает экземпляр класса http request, который содержит все данные о запросе пользователя
 def index(request):
+
+    categories = Categories.objects.all()
+
     context = {
         'title': 'HC - Главная',
         'content_title': 'HOMEMADE CAKES',
-        'content_text': 'Магазин домашних тортов'
+        'content_text': 'Магазин домашних тортов',
+        'categories': categories
     }
 
     return render(request, 'main/index.html', context)

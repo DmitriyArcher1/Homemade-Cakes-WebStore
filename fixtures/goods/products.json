@@ -1,0 +1,170 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Морковный торт",
+            "slug": "morkovnyj-tort",
+            "description": "Бисквит готовится на основании свежей тертой моркови. Содержит орехи и пряности.",
+            "image": "",
+            "price": "1199.00",
+            "dicsount": "0.00",
+            "quantity": 2,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Малина в шоколаде",
+            "slug": "malina-v-shokolade",
+            "description": "Содержит в себе сочный шоколадный вкус на основе шифонового бисквита, сливочно-сырный крем и малиновое кули",
+            "image": "",
+            "price": "1299.00",
+            "dicsount": "0.00",
+            "quantity": 3,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Классический медовик",
+            "slug": "klassicheskij-medovik",
+            "description": "Слоёный пирог с нотами мёда и карамели.",
+            "image": "",
+            "price": "1499.00",
+            "dicsount": "0.00",
+            "quantity": 1,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Прага",
+            "slug": "praga",
+            "description": "Тортик состоит из трех бисквитных коржей, пропитанных кремом. Крем готовится из молока, яиц, сливочного масла, какао и других ингредиентов",
+            "image": "",
+            "price": "1299.00",
+            "dicsount": "0.00",
+            "quantity": 2,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Панчо",
+            "slug": "pancho",
+            "description": "Торт оформляется аккуратной горкой-пиком и покрывается сметанным кремом. Внутри — кусочки бисквита и насыщенный сметанный крем.",
+            "image": "",
+            "price": "1399.00",
+            "dicsount": "0.00",
+            "quantity": 4,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Шоколадный трюфель",
+            "slug": "shokoladnyj-tryufel",
+            "description": "Шоколадные коржи, прослоенные большим количеством шоколадного крема, приготовленного из настоящего горького шоколада - вот что такое настоящий торт Трюфель!",
+            "image": "",
+            "price": "1499.00",
+            "dicsount": "0.00",
+            "quantity": 1,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Изюмный медовик (авторский)",
+            "slug": "izyumnyj-medovik-avtorskij",
+            "description": "Прекрасный тортик, который сочетает в себе классические нотки медовика и нежного вкуса изюма.",
+            "image": "",
+            "price": "1599.00",
+            "dicsount": "0.00",
+            "quantity": 1,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Торт с изюмом и грецкими орехами",
+            "slug": "tort-s-izyumom-i-greckimi-orehami",
+            "description": "Этот торт принесет удовольствие и укрепит здоровье!",
+            "image": "",
+            "price": "1199.00",
+            "dicsount": "0.00",
+            "quantity": 3,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Изюмный торт",
+            "slug": "izyumnyj-tort",
+            "description": "Любителям сладкого стоит попробовать этот тортик!",
+            "image": "",
+            "price": "1299.00",
+            "dicsount": "0.00",
+            "quantity": 3,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Торт Спартак",
+            "slug": "tort-spartak",
+            "description": "Божественный вкус, такой нежный, что тает во рту!",
+            "image": "",
+            "price": "1299.00",
+            "dicsount": "0.00",
+            "quantity": 2,
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Медовик без яиц с заварным сметанным кремом",
+            "slug": "medovik-bez-yaic-s-zavarnym-smetannym-kremom",
+            "description": "Это достойная альтернатива классическим рецептам медовика, которые готовятся с использованием яиц.",
+            "image": "",
+            "price": "1399.00",
+            "dicsount": "0.00",
+            "quantity": 1,
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Наполеон на молочном заварном креме",
+            "slug": "napoleon-na-molochnom-zavarnom-kreme",
+            "description": "Получается божественный Наполеон, который тает во рту. Он невероятно вкусный и обязательно понравится всем поклонникам слоеных тортов с заварным кремом.",
+            "image": "",
+            "price": "1599.00",
+            "dicsount": "0.00",
+            "quantity": 1,
+            "category": 8
+        }
+    }
+]

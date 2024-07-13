@@ -2,8 +2,85 @@ from django.shortcuts import render
 
 
 def catalog(request):
-    return render(request, 'goods/catalog.html')
+    context = {
+        "title": "HC - Каталог",
+        "goods": [
+            {
+                "image": "deps/images/goods/tort-1.jpg",
+                "name": "Морковный торт",
+                "description": "Бисквит готовится на основании свежей тертой моркови. Содержит орехи и пряности.",
+                "price": 1199.00,
+            },
+            {
+                "image": "deps/images/goods/tort-2.jpg",
+                "name": "Малина в шоколаде",
+                "description": "Содержит в себе сочный шоколадный вкус на основе шифонового бисквита, сливочно-сырный крем и малиновое кули.",
+                "price": 1299.00,
+            },
+            {
+                "image": "deps/images/goods/tort-3.jpg",
+                "name": "Классический медовик",
+                "description": "Слоёный пирог с нотами мёда и карамели.",
+                "price": 1499.00,
+            },
+            {
+                "image": "deps/images/goods/tort-4.jpg",
+                "name": "Прага",
+                "description": "Тортик состоит из трех бисквитных коржей, пропитанных кремом. Крем готовится из молока, яиц, сливочного масла, какао и других ингредиентов.",
+                "price": 1299.00,
+            },
+            {
+                "image": "deps/images/goods/tort-5.jpg",
+                "name": "Панчо",
+                "description": "Торт оформляется аккуратной горкой-пиком и покрывается сметанным кремом. Внутри — кусочки бисквита и насыщенный сметанный крем.",
+                "price": 1399.00,
+            },
+            {
+                "image": "deps/images/goods/tort-6.jpg",
+                "name": "Шоколадный трюфель",
+                "description": "Шоколадные коржи, прослоенные большим количеством шоколадного крема, приготовленного из настоящего горького шоколада - вот что такое настоящий торт Трюфель!",
+                "price": 1499.00,
+            },
+            {
+                "image": "deps/images/goods/tort-7.jpg",
+                "name": "Изюмный медовик (авторский)",
+                "description": "Прекрасный тортик, который сочетает в себе классические нотки медовика и нежного вкуса изюма.",
+                "price": 1599.00,
+            },
+            {
+                "image": "deps/images/goods/tort-8.jpg",
+                "name": "Торт с изюмом и грецкими орехами",
+                "description": "Этот торт принесет удовольствие и укрепит здоровье!",
+                "price": 1199.00,
+            },
+            {
+                "image": "deps/images/goods/tort-9.jpg",
+                "name": "Изюмный торт",
+                "description": "Любителям сладкого стоит попробовать этот тортик!",
+                "price": 1299.00,
+            },
+            {
+                "image": "deps/images/goods/tort-10.jpg",
+                "name": "Торт Спартак",
+                "description": "Божественный вкус, такой нежный, что тает во рту!",
+                "price": 1299.00,
+            },
+            {
+                "image": "deps/images/goods/tort-11.jpg",
+                "name": "Медовик без яиц с заварным сметанным кремом",
+                "description": "Это достойная альтернатива классическим рецептам медовика, которые готовятся с использованием яиц.",
+                "price": 1399.00,
+            },
+            {
+                "image": "deps/images/goods/tort-12.jpg",
+                "name": "Наполеон на молочном заварном креме",
+                "description": "Получается божественный Наполеон, который тает во рту. Он невероятно вкусный и обязательно понравится всем поклонникам слоеных тортов с заварным кремом.",
+                "price": 1599.00,
+            },
+        ],
+    }
+    return render(request, "goods/catalog.html", context)
 
 
 def product(request):
-    return render(request, 'goods/product.html')
+    return render(request, "goods/product.html")
