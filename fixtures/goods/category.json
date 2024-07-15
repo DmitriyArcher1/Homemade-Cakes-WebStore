@@ -9,34 +9,34 @@
     },
     {
         "model": "goods.categories",
-        "pk": 5,
-        "fields": {
-            "name": "Бисквитные и слоёные торты",
-            "slug": "medovik-klassicheskij"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 6,
-        "fields": {
-            "name": "Шоколадные торты",
-            "slug": "shokoladnyj-medovik"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 7,
-        "fields": {
-            "name": "Изюмные торты",
-            "slug": "lenivyj-medovik"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "name": "Заварные торты",
-            "slug": "tort-s-izyumom"
+            "slug": "zavarnye-torty"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 10,
+        "fields": {
+            "name": "Изюмные торты",
+            "slug": "izyumnye-torty"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 11,
+        "fields": {
+            "name": "Шоколадные торты",
+            "slug": "shokoladnye-torty"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 12,
+        "fields": {
+            "name": "Бисквитные и слоёные торты",
+            "slug": "biskvitnye-i-sloyonye-torty"
         }
     }
 ]

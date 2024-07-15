@@ -1,7 +1,7 @@
 [
     {
         "model": "goods.products",
-        "pk": 1,
+        "pk": 13,
         "fields": {
             "name": "Морковный торт",
             "slug": "morkovnyj-tort",
@@ -10,12 +10,12 @@
             "price": "1199.00",
             "dicsount": "0.00",
             "quantity": 2,
-            "category": 5
+            "category": 12
         }
     },
     {
         "model": "goods.products",
-        "pk": 2,
+        "pk": 14,
         "fields": {
             "name": "Малина в шоколаде",
             "slug": "malina-v-shokolade",
@@ -24,12 +24,12 @@
             "price": "1299.00",
             "dicsount": "0.00",
             "quantity": 3,
-            "category": 5
+            "category": 12
         }
     },
     {
         "model": "goods.products",
-        "pk": 3,
+        "pk": 15,
         "fields": {
             "name": "Классический медовик",
             "slug": "klassicheskij-medovik",
@@ -38,26 +38,26 @@
             "price": "1499.00",
             "dicsount": "0.00",
             "quantity": 1,
-            "category": 5
+            "category": 12
         }
     },
     {
         "model": "goods.products",
-        "pk": 4,
+        "pk": 16,
         "fields": {
             "name": "Прага",
             "slug": "praga",
-            "description": "Тортик состоит из трех бисквитных коржей, пропитанных кремом. Крем готовится из молока, яиц, сливочного масла, какао и других ингредиентов",
+            "description": "Тортик состоит из трех бисквитных коржей, пропитанных кремом. Крем готовится из молока, яиц, сливочного масла, какао и других ингредиентов.",
             "image": "",
             "price": "1299.00",
             "dicsount": "0.00",
             "quantity": 2,
-            "category": 6
+            "category": 11
         }
     },
     {
         "model": "goods.products",
-        "pk": 5,
+        "pk": 17,
         "fields": {
             "name": "Панчо",
             "slug": "pancho",
@@ -66,12 +66,12 @@
             "price": "1399.00",
             "dicsount": "0.00",
             "quantity": 4,
-            "category": 6
+            "category": 11
         }
     },
     {
         "model": "goods.products",
-        "pk": 6,
+        "pk": 18,
         "fields": {
             "name": "Шоколадный трюфель",
             "slug": "shokoladnyj-tryufel",
@@ -80,12 +80,12 @@
             "price": "1499.00",
             "dicsount": "0.00",
             "quantity": 1,
-            "category": 6
+            "category": 11
         }
     },
     {
         "model": "goods.products",
-        "pk": 7,
+        "pk": 19,
         "fields": {
             "name": "Изюмный медовик (авторский)",
             "slug": "izyumnyj-medovik-avtorskij",
@@ -94,12 +94,12 @@
             "price": "1599.00",
             "dicsount": "0.00",
             "quantity": 1,
-            "category": 7
+            "category": 10
         }
     },
     {
         "model": "goods.products",
-        "pk": 8,
+        "pk": 20,
         "fields": {
             "name": "Торт с изюмом и грецкими орехами",
             "slug": "tort-s-izyumom-i-greckimi-orehami",
@@ -108,12 +108,12 @@
             "price": "1199.00",
             "dicsount": "0.00",
             "quantity": 3,
-            "category": 7
+            "category": 10
         }
     },
     {
         "model": "goods.products",
-        "pk": 9,
+        "pk": 21,
         "fields": {
             "name": "Изюмный торт",
             "slug": "izyumnyj-tort",
@@ -122,12 +122,12 @@
             "price": "1299.00",
             "dicsount": "0.00",
             "quantity": 3,
-            "category": 7
+            "category": 10
         }
     },
     {
         "model": "goods.products",
-        "pk": 10,
+        "pk": 22,
         "fields": {
             "name": "Торт Спартак",
             "slug": "tort-spartak",
@@ -136,12 +136,12 @@
             "price": "1299.00",
             "dicsount": "0.00",
             "quantity": 2,
-            "category": 8
+            "category": 9
         }
     },
     {
         "model": "goods.products",
-        "pk": 11,
+        "pk": 23,
         "fields": {
             "name": "Медовик без яиц с заварным сметанным кремом",
             "slug": "medovik-bez-yaic-s-zavarnym-smetannym-kremom",
@@ -150,12 +150,12 @@
             "price": "1399.00",
             "dicsount": "0.00",
             "quantity": 1,
-            "category": 8
+            "category": 9
         }
     },
     {
         "model": "goods.products",
-        "pk": 12,
+        "pk": 24,
         "fields": {
             "name": "Наполеон на молочном заварном креме",
             "slug": "napoleon-na-molochnom-zavarnom-kreme",
@@ -164,7 +164,7 @@
             "price": "1599.00",
             "dicsount": "0.00",
             "quantity": 1,
-            "category": 8
+            "category": 9
         }
     }
 ]
