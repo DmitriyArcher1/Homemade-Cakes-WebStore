@@ -139,6 +139,10 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static' # указываю путь к общей static для всего проекта в корневой директории
     ]
 
+MEDIA_URL = 'media/'
+
+MEDIA_ROOT = BASE_DIR / 'media/' # константа, которая хранит изображения, дабы django их нашёл
+
 INTERNAL_IPS = [
     "127.0.0.1",
 ]

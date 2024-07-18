@@ -18,8 +18,10 @@ from re import DEBUG
 from django.contrib import admin
 from django.urls import include, path
 from debug_toolbar.toolbar import debug_toolbar_urls
-from app.settings import DEBUG
+from django.conf.urls.static import static
 
+from app import settings
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,7 +30,9 @@ urlpatterns = [
 ]
 
 
-if DEBUG == True:
+if settings.DEBUG == True:
     urlpatterns += [
         path("__debug__/", include("debug_toolbar.urls")),
         ]
+    
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
