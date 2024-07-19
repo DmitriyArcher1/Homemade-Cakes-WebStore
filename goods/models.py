@@ -47,4 +47,4 @@ class Products(models.Model):
         if self.dicsount:
             return round(self.price - (self.price * self.dicsount) / 100, 2)
         else:
-            return 
+            return self.price
