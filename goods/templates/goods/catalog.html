@@ -56,9 +56,11 @@
                 {% endif %}
 
                 <div class="card-body">
-                    <a href="../goods/product.html">
+                    <!-- Ссылка на карту с товаром -->
+                    <a href="{% url "catalog:product" product.slug %}">
                         <p class="card-title">{{ product.name }}</p>
                     </a>
+
                     <p class="card-text text-truncate">{{ product.description }}</p>
                     <p class="product_id">id: {{ product.display_id }}</p>
                     <div class="d-flex justify-content-between">
