@@ -6,6 +6,9 @@ from goods.models import Products
 def catalog(request, category_slug):
 
     page = request.GET.get("page", 1) # GET - словарь, а get - уже метод, применяемыый к этому словарю
+    on_sale = request.GET.get("on_sale", None)
+    order_by = request.GET.get("order_by", None)
+
 
     if category_slug == "all":
         goods = Products.objects.all() # получение всех товаров из базы данных
@@ -13,6 +16,13 @@ def catalog(request, category_slug):
         goods = get_list_or_404(Products.objects.filter(category__slug=category_slug)) 
         # иначе получаем товары по определенной категории
     
+    if on_sale:
+        goods = goods.filter(dicsount__gt=0) # скидки больше, чем 0
+    
+    if order_by and order_by != "default":
+        goods = goods.order_by(order_by)
+    
+    # пагинация
     paginator = Paginator(goods, 3)
     current_page = paginator.page(int(page))
 
