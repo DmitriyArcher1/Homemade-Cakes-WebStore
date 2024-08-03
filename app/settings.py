@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
     'main',
     'goods',
-    
+    'users',
 ]
 
 # промежуточное ПО, которое отвечает за безопасность
@@ -72,7 +72,7 @@ ROOT_URLCONF = 'app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates', # движок по умолчанию (наполнение информацией html страниц и прочее)
-        'DIRS': [], # доп.пути, где искать шаблоны
+        'DIRS': [BASE_DIR / "templates"], # доп.пути, где искать шаблоны
         'APP_DIRS': True, 
         'OPTIONS': {
             'context_processors': [
