@@ -158,3 +158,4 @@ INTERNAL_IPS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.User' # говорю django, чтобы он определял именно мою таблицу auth_user
+LOGIN_URL = '/user/login/' # переопределяю url маршрут для функции login_required в директории users, файле views.py

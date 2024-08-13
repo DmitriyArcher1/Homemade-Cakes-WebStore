@@ -24,7 +24,12 @@ def login(request):
             if user:
                 auth.login(request, user) # то авторизуем его
                 messages.success(request, f"{username}, Вы вошли в свой аккаунт.")
-                return HttpResponseRedirect(reverse('main:index')) # и перенаправляем на главную страницу
+
+                # проверка в случае, если пользователь (не авторизованный) захочет перейти сразу в профиль
+                if request.GET.get('next', None): 
+                    return HttpResponseRedirect(request.GET.get('next')) # то при входе в аккаунт, он сразу направляется в свой ЛК
+                
+                return HttpResponseRedirect(reverse('main:index')) # перенаправляем на главную страницу
     
     else:
         form = UserLoginForm()
@@ -81,6 +86,6 @@ def profile(request):
 
 @login_required
 def logout(request):
-    messages.success(request, f"{request.user.username}, Вы вышли из аккаунта.")
+    messages.success(request, f"{request.user.username}, Вы вышли из аккаунта")
     auth.logout(request)
     return redirect(reverse('main:index'))
