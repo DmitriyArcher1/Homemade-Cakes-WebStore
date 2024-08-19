@@ -1,7 +1,7 @@
 from django.contrib.auth.decorators import login_required
 import re
 from django.contrib import auth, messages
-from django.http import HttpResponseRedirect
+from django.http import HttpResponse, HttpResponsePermanentRedirect, HttpResponseRedirect
 from django.shortcuts import redirect, render
 from django.urls import reverse
 
@@ -9,7 +9,7 @@ from users.forms import ProfileForm, UserLoginForm, UserRegistrationForm
 from users.models import User
 
 
-def login(request):
+def login(request) -> HttpResponseRedirect | HttpResponse:
     
     if request.method == 'POST':
         form = UserLoginForm(data=request.POST) # передаём словарь с данными
@@ -23,7 +23,7 @@ def login(request):
             # если возвращается объект user(он есть в БД)
             if user:
                 auth.login(request, user) # то авторизуем его
-                messages.success(request, f"{username}, Вы вошли в свой аккаунт.")
+                messages.success(request, f"{username}, Вы вошли в систему.")
 
                 # проверка в случае, если пользователь (не авторизованный) захочет перейти сразу в профиль
                 if request.GET.get('next', None): 
@@ -41,7 +41,7 @@ def login(request):
 
     return render(request, 'users/login.html', context)
 
-def registration(request):
+def registration(request) -> HttpResponseRedirect | HttpResponse:
 
     if request.method == 'POST':
         form = UserRegistrationForm(data=request.POST) # передаём данные из словаря, которые указал пользователь
@@ -50,7 +50,7 @@ def registration(request):
             form.save()
             user = form.instance
             auth.login(request, user)
-            messages.success(request, f"{user.username}, Вы успешно зарегистрировались и вошли в свой аккаунт.")
+            messages.success(request, f"{user.username}, Вы успешно зарегистрировались и вошли в систему.")
             return HttpResponseRedirect(reverse('main:index')) # и перенаправляем на страницу с авторизацией
     
     else:
@@ -64,7 +64,7 @@ def registration(request):
     return render(request, 'users/registration.html', context)
 
 @login_required
-def profile(request):
+def profile(request) -> HttpResponseRedirect | HttpResponse:
 
     if request.method == 'POST':
         form = ProfileForm(data=request.POST, instance=request.user, files=request.FILES) # передаём данные из словаря, которые указал пользователь
@@ -84,8 +84,13 @@ def profile(request):
 
     return render(request, 'users/profile.html', context)
 
+
+def users_cart(request) -> HttpResponse:
+    return render(request, 'users/users_cart.html')
+
+
 @login_required
-def logout(request):
-    messages.success(request, f"{request.user.username}, Вы вышли из аккаунта")
+def logout(request) -> HttpResponseRedirect | HttpResponsePermanentRedirect:
+    messages.success(request, f"{request.user.username}, Вы вышли из системы")
     auth.logout(request)
     return redirect(reverse('main:index'))
