@@ -1,8 +1,10 @@
 {% load static %}
 
+
 <div class="card mb-3 text-bg-light shadow-lg">
+    {% for cart in carts %}
     <div class="card-header">
-        <h5 class="card-title">Товар</h5>
+        <h5 class="card-title">{{ cart.product.name }}</h5>
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">
@@ -13,8 +15,10 @@
                             <button type="button" class="btn btn-dark btn-sm decrement"
                                 data-cart-id="" data-cart-change-url="">-</button>
                         </span>
-                        <input type="text" class="form-control number" value="1"
+
+                        <input type="text" class="form-control number" value="{{ cart.quantity }}"
                             readonly>
+
                         <span class="input-group-btn">
                             <button type="button" class="btn btn-dark btn-sm increment"
                                 data-cart-id="" data-cart-change-url="">+</button>
@@ -22,9 +26,9 @@
                     </div>
                 </div>
                 <div class="col p-0">
-                    <p>x 100.00 = </p>
+                    <p>x {{ cart.product.sell_price }} = </p>
                 </div>
-                <div class="col p-0"><strong>100.00 $</strong></div>
+                <div class="col p-0"><strong>{{ cart.products_price }} Руб.</strong></div>
                 <div class="col p-0">
                     <a href="{% url "carts:cart_remove" 1 %}" class="remove-from-cart" data-cart-id="">
                         <img class="mx-1" src="{% static "deps/icons/trash3-fill.svg" %}"
@@ -34,10 +38,12 @@
             </div>
         </li>
     </ul>
+    {% endfor %}
 </div>
+
 <div class="card mb-3 shadow-lg">
     <div class="card-footer">
-        <p class="float-left">Итого <strong>1</strong> товар(а) на сумму</p>
-        <h4 class="float-left"><strong>100.00 $</strong></h4>
+        <p class="float-left">Итого <strong>{{ carts.total_quantity }}</strong> товар(а) на сумму</p>
+        <h4 class="float-left"><strong>{{ carts.total_price }} Руб.</strong></h4>
     </div>
 </div>

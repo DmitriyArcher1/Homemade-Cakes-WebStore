@@ -1,6 +1,10 @@
 {% extends "base.html" %} <!-- Указываю путь к файлу, с помощью которого мы расширяем registration.html (наследуем) -->
 {% load static %}
 
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock modal_cart %}
+
 
 {% block content %}
 <div class="row">

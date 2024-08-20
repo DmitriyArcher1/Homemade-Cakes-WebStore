@@ -1,5 +1,4 @@
 from django.contrib.auth.decorators import login_required
-import re
 from django.contrib import auth, messages
 from django.http import HttpResponse, HttpResponsePermanentRedirect, HttpResponseRedirect
 from django.shortcuts import redirect, render
@@ -25,9 +24,9 @@ def login(request) -> HttpResponseRedirect | HttpResponse:
                 auth.login(request, user) # то авторизуем его
                 messages.success(request, f"{username}, Вы вошли в систему.")
 
-                # проверка в случае, если пользователь (не авторизованный) захочет перейти сразу в профиль
-                if request.GET.get('next', None): 
-                    return HttpResponseRedirect(request.GET.get('next')) # то при входе в аккаунт, он сразу направляется в свой ЛК
+                redirect_page = request.POST.get('next', None)
+                if redirect_page and redirect_page != reverse('users:logout'):
+                    return HttpResponseRedirect(request.POST.get('next'))
                 
                 return HttpResponseRedirect(reverse('main:index')) # перенаправляем на главную страницу
     
