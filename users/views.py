@@ -4,6 +4,7 @@ from django.http import HttpResponse, HttpResponsePermanentRedirect, HttpRespons
 from django.shortcuts import redirect, render
 from django.urls import reverse
 
+from carts.models import Cart
 from users.forms import ProfileForm, UserLoginForm, UserRegistrationForm
 from users.models import User
 
@@ -19,10 +20,15 @@ def login(request) -> HttpResponseRedirect | HttpResponse:
             user = auth.authenticate(username=username, password=password)
             # проверка на то, есть ли уже такой пользователь или нет
 
+            session_key = request.session.session_key
+
             # если возвращается объект user(он есть в БД)
             if user:
                 auth.login(request, user) # то авторизуем его
                 messages.success(request, f"{username}, Вы вошли в систему.")
+
+                if session_key:
+                    Cart.objects.filter(session_key = session_key).update(user = user)
 
                 redirect_page = request.POST.get('next', None)
                 if redirect_page and redirect_page != reverse('users:logout'):
@@ -47,8 +53,15 @@ def registration(request) -> HttpResponseRedirect | HttpResponse:
  
         if form.is_valid():
             form.save()
+
+            session_key = request.session.session_key
+
             user = form.instance
             auth.login(request, user)
+
+            if session_key:
+                Cart.objects.filter(session_key = session_key).update(user = user)
+            
             messages.success(request, f"{user.username}, Вы успешно зарегистрировались и вошли в систему.")
             return HttpResponseRedirect(reverse('main:index')) # и перенаправляем на страницу с авторизацией
     
