@@ -1,6 +1,7 @@
 from django.http import HttpResponsePermanentRedirect, HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect, render
 from django.template.loader import render_to_string
+from pkg_resources import require
 
 from carts.models import Cart
 from carts.utils import get_user_carts
@@ -39,8 +40,22 @@ def cart_change(request, product_slug):
     ...
 
 
-def cart_remove(request, cart_id) -> HttpResponseRedirect | HttpResponsePermanentRedirect:
+def cart_remove(request) -> JsonResponse:
     
+    cart_id = request.POST.get("cart_id")
+
     cart = Cart.objects.get(id = cart_id)
+    quantity = cart.quantity
     cart.delete()
-    return redirect(request.META['HTTP_REFERER'])
+
+    user_cart = get_user_carts(request)
+    cart_item_html = render_to_string(
+        "carts/includes/included_cart.html", {"carts": user_cart}, request = request)
+    
+    response_data = {
+        "message": "Товар удалён",
+        "cart_item_html": cart_item_html,
+        "quantity_deleted": quantity,
+    }
+
+    return JsonResponse(response_data)
