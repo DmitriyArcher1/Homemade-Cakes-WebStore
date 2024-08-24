@@ -1,6 +1,7 @@
 # Описание таблиц базы данных
 from typing import Self
 from django.db import models
+from django.urls import reverse
 
 # Через данные классы мне предоставляется API ORM системы для взаимодействия с таблицами в базе данных
 
@@ -40,8 +41,14 @@ class Products(models.Model):
     def __str__(self):
         return f'{self.name} Количество - {self.quantity}'
     
+    
+    def get_absolute_url(self):
+        return reverse("catalog:product", kwargs={"product_slug": self.slug})
+    
+    
     def display_id(self):
         return f"{self.id:05}"
+    
     
     def sell_price(self):
 
