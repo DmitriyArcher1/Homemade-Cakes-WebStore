@@ -46,12 +46,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.postgres',
 
-    "debug_toolbar",
+    'debug_toolbar',
 
     'main',
     'goods',
     'users',
     'carts',
+    'orders',
 ]
 
 # промежуточное ПО, которое отвечает за безопасность
