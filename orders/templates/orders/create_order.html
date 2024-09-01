@@ -56,8 +56,7 @@
                             <input type="text" class="form-control" 
                                 id="id_phone_number" 
                                 name="phone_number"
-                                placeholder="В формате: XXX-XXX-XX-XX"
-                                value={% if form.phone_number.value %}{{ form.phone_number.value }}{% endif %}
+                                placeholder = "В формате: XXX-XXX-XX-XX (Писать без пробелов)"
                                 required>
 
                                 {% if form.phone_number.errors %}
@@ -119,6 +118,11 @@
                                 <label class="form-check-label" for="id_payment_on_get">Наличными/картой
                                     при получении
                                 </label>
+
+                                {% if form.payment_on_get.errors %}
+                                    <div class="alert alert-danger alert-dismissible fade show">{{ form.payment_on_get.errors }}</div>
+                                {% endif %}
+                                
                             </div>
                         </div>
 
