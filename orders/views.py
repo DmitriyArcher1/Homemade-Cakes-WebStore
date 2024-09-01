@@ -1,14 +1,16 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.db import transaction
 from django.forms import ValidationError
+from django.http import HttpResponse, HttpResponsePermanentRedirect, HttpResponseRedirect
 from django.shortcuts import redirect, render
 
 from carts.models import Cart
 from orders.forms import CreateOrderForm
 from orders.models import Order, OrderItem
 
-
-def create_order(request):
+@login_required
+def create_order(request) -> HttpResponseRedirect | HttpResponsePermanentRedirect | HttpResponse:
 
     if request.method == 'POST':
         form = CreateOrderForm(data = request.POST)
@@ -71,6 +73,7 @@ def create_order(request):
     context = {
         'title': 'HC - Оформление заказа',
         'form': form,
+        'order': True,
     }
 
     return render(request, 'orders/create_order.html', context = context)
