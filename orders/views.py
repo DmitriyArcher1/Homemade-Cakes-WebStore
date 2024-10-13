@@ -60,7 +60,7 @@ def create_order(request) -> HttpResponseRedirect | HttpResponsePermanentRedirec
                         
             except ValidationError as e:
                 messages.success(request, str(e))
-                return redirect('carts:order')
+                return redirect('orders:create_order')
             
     else:
         initial = {

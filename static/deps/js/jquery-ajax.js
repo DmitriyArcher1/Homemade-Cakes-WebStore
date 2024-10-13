@@ -217,4 +217,36 @@ $(document).ready(function () {
             $("#deliveryAddressField").hide();
         }
     });
+
+    // Форматирование ввода номера телефона в форме (xxx) xxx-xxxx
+
+    document.getElementById('id_phone_number').addEventListener('input', function (e) {
+        var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+        e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+    });
+    
+
+    // Проверяем на стороне клиента корректность номера телефона в форме xxx-xxx-xx-xx
+
+    $('#create_order_form').on('submit', function (event) {
+        var phoneNumber = $('#id_phone_number').val();
+        var regex = /^\(\d{3}\) \d{3}-\d{4}$/;
+
+        if (!regex.test(phoneNumber)) {
+            $('#phone_number_error').show();
+            event.preventDefault();
+        } 
+
+        else {
+            $('#phone_number_error').hide();
+
+            
+            // Очистка номера телефона от скобок и тире перед отправкой формы
+            var cleanedPhoneNumber = phoneNumber.replace(/[()\-\s]/g, '');
+            $('#id_phone_number').val(cleanedPhoneNumber);
+        }
+    });
 });
+
+
+   

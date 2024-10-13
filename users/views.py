@@ -30,7 +30,13 @@ def login(request) -> HttpResponseRedirect | HttpResponse:
                 messages.success(request, f"{username}, Вы вошли в систему.")
 
                 if session_key:
-                    Cart.objects.filter(session_key = session_key).update(user = user)
+                    # Удаление старых корзин авторизованных пользователей
+                    forgot_carts = Cart.objects.filter(user=user)
+                    if forgot_carts.exists():
+                        forgot_carts.delete()
+
+                    # добавление новых корзин авторизованных пользователей из анонимной сессии               
+                Cart.objects.filter(session_key = session_key).update(user = user)
 
                 redirect_page = request.POST.get('next', None)
                 if redirect_page and redirect_page != reverse('users:logout'):

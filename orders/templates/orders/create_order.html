@@ -19,7 +19,8 @@
         <div class="card mb-3">
             <div class="card-body">
 
-                <form action={% url "orders:create_order" %} method='post'>
+                <form action={% url "orders:create_order" %} method='post'
+                 id = "create_order_form">
                     {% csrf_token %}
 
                     <div class="row">
@@ -56,12 +57,14 @@
                             <input type="text" class="form-control" 
                                 id="id_phone_number" 
                                 name="phone_number"
-                                placeholder = "В формате: XXX-XXX-XX-XX (Писать без пробелов)"
+                                placeholder = "(000) 000-0000"
                                 required>
 
                                 {% if form.phone_number.errors %}
                                     <div class="alert alert-danger alert-dismissible fade show">{{ form.phone_number.errors }}</div>
                                 {% endif %}
+
+                                <div class="alert alert-danger alert-dismissible fade show" style="display:none" id="phone_numer_error">Неверный формат номера</div>
                         </div>
 
                         <div class="col-md-12 mb-3">

@@ -27,4 +27,9 @@ class CartAdmin(admin.ModelAdmin):
 
     def product_display(self, object) -> str:
         return str(object.product.name)
+        
+    
+    user_display.short_description = "Пользователь"
+    product_display.short_description = "Товар"
+
 
