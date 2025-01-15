@@ -37,6 +37,9 @@
         <li>
          <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Отображение статуса заказа в личном кабинете</li>
+        <li>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
+        Полнотекстовый поиск</li>
     </ul>
 </p>
 
@@ -69,3 +72,9 @@
 </h1>
 
 <img src="/img/Profile2.png" />
+
+<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+Полнотекстовый поиск <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+</h1>
+
+<img src="/img/Search.PNG" />
