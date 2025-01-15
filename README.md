@@ -4,38 +4,38 @@
     На нём реализованы такие функции как:
     <ul>
         <li>
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Регистрация
         </li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Авторизация</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Личный кабинет</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Пагинация по страницам с товаром</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Добавление товара в корзину</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Удаление товара из корзины</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Измненение количества товара в корзине</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Оформление заказа</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Перенос товаров в корзине по сессионому ключу с незарегистрированного аккаунта на только что зарегестрированный</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Кэширование данных в БД</li>
         <li>
-         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="60px"/>
+         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="50px"/>
         Отображение статуса заказа в личном кабинете</li>
     </ul>
 </p>
