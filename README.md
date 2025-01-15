@@ -40,7 +40,7 @@
     </ul>
 </p>
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" />
+<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
 Личный кабинет пользователя </h1>
 
 <img src="/img/Profile.PNG" />
