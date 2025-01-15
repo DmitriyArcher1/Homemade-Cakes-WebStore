@@ -4,7 +4,7 @@
     На нём реализованы такие функции как:
     <ul>
         <li>
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" />
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" width="40px"/>
         Регистрация
         </li>
         <li>Авторизация</li>
