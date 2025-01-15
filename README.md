@@ -3,7 +3,10 @@
 <p> Homemade Cakes - это интернет магазин, написанный на Backend фреймворке Django.
     На нём реализованы такие функции как:
     <ul>
-        <li>Регистрация</li>
+        <li>
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBsbTR5bDlzbHFtNDBrOXQ5amhiNnpwZ2xzbTVwaWlhenh4NXN2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2C6v4QD5d3YOO4YhID/giphy.gif" />
+        Регистрация
+        </li>
         <li>Авторизация</li>
         <li>Личный кабинет</li>
         <li>Пагинация по страницам с товаром</li>
