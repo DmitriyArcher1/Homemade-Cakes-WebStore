@@ -15,8 +15,8 @@ class IndexView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'HC - Главная'
-        context['content_title'] = 'HOMEMADE CAKES'
-        context['content_text'] = 'Магазин домашних тортов'
+        context['content_title'] = ''
+        context['content_text'] = ''
 
         return context
     

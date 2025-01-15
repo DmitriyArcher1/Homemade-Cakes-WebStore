@@ -9179,7 +9179,17 @@ fieldset:disabled .btn {
 }
 
 .pt-5 {
-    padding-top: 3rem !important
+    padding-top: 3rem !important;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: #fff5d2ab 1px 0 10px;
+}
+
+.content-text{
+    padding-top: 4rem !important;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: #fff5d2ab 1px 0 10px;
 }
 
 .pe-0 {
@@ -10162,6 +10172,8 @@ fieldset:disabled .btn {
 }
 
 @media (min-width:576px) {
+
+
     .float-sm-start {
         float: left !important
     }
@@ -10897,6 +10909,8 @@ fieldset:disabled .btn {
 }
 
 @media (min-width:768px) {
+
+    
     .float-md-start {
         float: left !important
     }
@@ -12366,7 +12380,17 @@ fieldset:disabled .btn {
     }
 }
 
+
+@media (max-width: 768px) {
+    .pt-5 {
+        font-size: 60px;
+    }
+}
+
+
 @media (min-width:1200px) {
+
+    
     .float-xl-start {
         float: left !important
     }
