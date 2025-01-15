@@ -1,4 +1,5 @@
 <h1> Homemade Cakes - WebStore </h1>
+<img src="./media/WebStore.PNG" />
 <p> Homemade Cakes - это интернет магазин, написанный на Backend фреймворке Django.
     На нём реализованы такие функции как:
     <ul>
