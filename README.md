@@ -49,44 +49,58 @@
     </ul>
 </p>
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Личный кабинет пользователя <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Личный кабинет пользователя <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Profile.PNG" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Страница товаров (первая) <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Страница товаров (первая) <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Goods.PNG" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Корзина <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Корзина <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Card.PNG" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Оформление заказа <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Оформление заказа <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Pay.PNG" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Отображение оформленного заказа в профиле <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<di align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Отображение оформленного заказа в профиле <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</di>
 
 <img src="/img/Profile2.png" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Полнотекстовый поиск <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Полнотекстовый поиск <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Search.PNG" />
 
-<h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-Фильтрация товаров <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
-</h1>
+<div align="center">
+    <h1> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    Фильтрация товаров <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGlydGt3cDU1ZG40d3cydnQxdXRicHJ0ZTZlMm95NGo4anN0cmhuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KA593kO0JvXMs/giphy.gif" width="40px" />
+    </h1>
+</div>
 
 <img src="/img/Filter.PNG" />
